@@ -154,6 +154,7 @@ let g:goyo_margin_bottom = 2
 nnoremap <silent> <leader>z :Goyo<cr>
 
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Ale (syntax checker and linter)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
