@@ -38,6 +38,10 @@ let mapleader = ","
 " Fast saving
 nmap <leader>w :w!<cr>
 
+" Easy column : ->;
+nnoremap ; :
+
+
 " :W sudo saves the file
 " (useful for handling the permission-denied error)
 command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
@@ -113,8 +117,7 @@ set foldcolumn=1
 
 " Set relative numbering of lines
 set number
-set relative number
-
+set relativenumber
 
 
 

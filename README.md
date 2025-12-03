@@ -1,10 +1,11 @@
 ## Awesome version
 ### Install for your own user only Awesome version
 
-	git clone --depth=1 https://github.com/OneGraund/vimrc.git ~/.vim_runtime
+	git clone --depth=1 https://github.com/OneGraund/vimrc.git ~/Repos
+    ln -s ~/Repos/vimrc ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 	
-### Install for multiple users
+### Install for multiple users (didn't look into tbh)
 
 	git clone --depth=1 https://github.com/OneGraund/vimrc.git /opt/vim_runtime
 	sh /opt/vim_runtime/install_awesome_parameterized.sh /opt/vim_runtime user0 user1 user2
