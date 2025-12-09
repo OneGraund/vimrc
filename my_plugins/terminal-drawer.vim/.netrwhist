@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/onegraund/Fpga/CodeGenerated/DE10_Standard/vga_audio_player'
+let g:netrw_dirhist_7='/home/onegraund/Fpga/CodeGenerated/DE10_Standard'
+let g:netrw_dirhist_6='/home/onegraund/Fpga/CodeGenerated'
+let g:netrw_dirhist_5='/home/onegraund/Fpga'
+let g:netrw_dirhist_4='/home/onegraund'
+let g:netrw_dirhist_3='/home/onegraund/Uni'
+let g:netrw_dirhist_2='/home/onegraund/Uni/ddca_ss2025'
+let g:netrw_dirhist_1='/home/onegraund/Uni/ddca_ss2025/util'

@@ -194,3 +194,15 @@ let g:EditorConfig_exclude_patterns = ['fugitive://.*']
 " Copy the link to the line of a Git repository to the clipboard
 nnoremap <leader>v :.GBrowse!<CR>
 xnoremap <leader>v :GBrowse!<CR>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => terminal-drawer.vim
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:terminal_drawer_shell = "zsh"
+" Change the binding to another one, if you need <C-t> for other thing.
+let g:terminal_drawer_leader = "<leader>/"
+" Change the terminal postion "bottom" or "top"
+let g:terminal_drawer_position = "bottom"
+" Change the terminal size
+let g:terminal_drawer_size = 20
